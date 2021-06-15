@@ -1,0 +1,220 @@
+* { 
+    box-sizing: border-box;
+}
+
+html { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    min-width: 480px; 
+
+}
+
+main { 
+    display: flex; 
+    flex-direction: column;
+
+}
+
+@media only screen and (max-width: 1000px) { 
+    html { 
+        font-size: 14px; 
+    }
+}
+
+/* header nav */
+
+nav { 
+    background-color: #0C61F5;
+    height: 70px; 
+}
+
+nav ul {
+    float: right; 
+    list-style-type: none; 
+    display: flex; 
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+nav li { 
+    margin-right: 40px;
+    color: #FFFFFF; 
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+nav a:hover { 
+    color: #F5AA0C;
+}
+
+/* banner */
+
+.banner { 
+    background: url(images/running\ bridge.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 400px; 
+    float: right; 
+}
+
+.title { 
+    color: #FFFFFF; 
+    float: left;
+    margin: 5em 2em; 
+}
+
+.title h1 { 
+    font-size: 1.7em; 
+}
+
+.title p { 
+    font-size: 1.1em; 
+    width: 400px; 
+}
+
+@media only screen and (max-width: 1200px) {
+    .banner {
+        background-size: 140%; 
+        height: 350px; 
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .banner {
+        background-size: 180%; 
+        height: 300px; 
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .banner { 
+        height: 250px; 
+    }
+}
+
+
+
+/* wanneer */
+
+
+.wanimg { 
+    float: left; 
+    width: 50%; 
+}
+
+.wanimg img { 
+    width: 60%; 
+    height: auto;
+    margin: 1em 5em; 
+    border-radius: 50px;
+    
+}
+
+.wantext { 
+    float: right;
+    width: 50%;  
+    padding-top: 20px;
+}
+
+.wantext p { 
+    width: 70%; 
+}
+
+/* Hoe */
+
+.htext  { 
+    width: 50%; 
+    float: left; 
+    padding-left: 5em;  
+}
+
+.htext p { 
+    width: 70%;  
+}
+
+.himg { 
+    width: 50%; 
+    float: right; 
+}
+
+.himg img { 
+    width: 60%; 
+    height: auto;  
+    border-radius: 50px;
+    
+}
+
+@media only screen and (max-width: 900px) {
+    .wimg img, .himg img {
+        margin-top: 50%; 
+        margin: auto; 
+        float: none; 
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .wantext, .htext {
+        width: 90%; 
+        margin: auto; 
+        float: none; 
+        padding-left: 20%; 
+    }
+
+    .wimg {
+        width: 90%; 
+        padding: left: 
+        
+    }
+
+    .himg {
+        width: 90%;
+        padding-left: 20%; 
+    }
+}
+
+/* Met wie */
+
+.metwie { 
+    margin: 10px 20px; 
+}
+
+.mtitle { 
+    text-align: center;
+}
+
+.mpeople { 
+
+    display: flex; 
+    justify-content: space-evenly; 
+    flex-wrap: wrap; 
+    width: 90%; 
+
+}
+
+.person { 
+    height: 200px; 
+    width: 200px; 
+    text-align: center; 
+}
+
+.person img {  
+    width: 150px;
+    margin: auto; 
+
+} 
+
+
+/* footer */
+
+footer { 
+    background-color: #0C61F5;
+    color: #FFFFFF; 
+    text-align: center;
+    height: 100px; 
+    font-size: 1.1em;  
+}
+
+address { 
+    padding-top: 25px; 
+}
