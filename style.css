@@ -71,7 +71,7 @@ nav a:hover {
 
 .title { 
     color: #FFFFFF; 
-    float: left;
+    float: left; 
     margin: 0em 2em; 
     width: 50%; 
 }
@@ -81,14 +81,17 @@ nav a:hover {
 }
 
 .title p { 
-    font-size: 2vw; 
-    width: 400px; 
+    font-size: 2vw;  
 }
 
 @media only screen and (max-width: 480px) {
 
     .title {
         width: 80%; 
+    }
+
+    .title h1 {
+        font-size: 1.2em; 
     }
 
     .title p {
