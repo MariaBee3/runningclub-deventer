@@ -65,7 +65,7 @@ nav a:hover {
 .banner { 
     background: url(images/running\ bridge.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     height: 20%;  
 }
 
@@ -77,26 +77,24 @@ nav a:hover {
 }
 
 .title h1 { 
-    font-size: 1.7em; 
+    font-size: 3vw; 
 }
 
 .title p { 
-    font-size: 1.1em; 
+    font-size: 2vw; 
     width: 400px; 
 }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 480px) {
 
     .title {
-        width: 70%; 
-    }
-    .title h1 {
-        font-size: 1.2em;
+        width: 80%; 
     }
 
     .title p {
-        font-size: 0.7em;
+        font-size: 1em; 
     }
+    
 }
 
 /* wanneer */
@@ -108,18 +106,18 @@ nav a:hover {
 
 .wanimg {  
     width: 50%; 
+    margin: 1em 1em 1em 5em; 
 }
 
 .wanimg img { 
     width: 80%; 
     height: auto;
-    margin: 1em 5em; 
     border-radius: 50px;
 }
 
 .wantext { 
     width: 50%;  
-    margin: 1em 5em; 
+    margin: 1em 1em; 
 }
 
 .wantext p { 
@@ -135,7 +133,7 @@ nav a:hover {
 
 .htext  { 
     width: 50%; 
-    margin: 1em 5em;  
+    margin: 1em 1em 1em 5em;  
 }
 
 .htext p { 
@@ -144,6 +142,7 @@ nav a:hover {
 
 .himg { 
     width: 50%; 
+    margin: 1em 1em;
 }
 
 .himg img { 
